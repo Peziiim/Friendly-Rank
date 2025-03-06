@@ -18,12 +18,14 @@
             </a>
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><h1>FriendlyRank</h1></li>
+                <li><h1>FriendlyRank</h1></li>
 
             </ul>
+
+    
             <div class="text-end">
-              <a href="login.html"> <button type="button" class="btn btn-outline-light me-2">Login</button></a>
-             <a href="#"> <button type="button" class="btn btn-warning">Sign-up</button></a>
+                <a href="#"> <button type="button" class="btn btn-outline-light me-2">Login</button></a>
+                <a href="index.html"> <button type="button" class="btn btn-warning">Sign-up</button></a>
             </div>
           </div>
         </div>
@@ -46,32 +48,27 @@
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password" id="password">
                 <label for="floatingPassword">Senha</label>
               </div>
-              <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" id="spassword">
-                <label for="floatingPassword">Confirmar senha</label>
-              </div>
               <div class="checkbox mb-3">
                 <label>
-                  <input type="checkbox" value="remember-me"> Remember me
+                  <input type="checkbox" value="remember-me"> Lembre de mim
                 </label>
               </div>
-              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
               <hr class="my-4">
-              <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+              <small class="text-body-secondary">By click Login, you agree to the terms of use.</small>
             </form>
             <div class="login-page">
-                <h4>Já se inscreveu? <a href="index.html">Clique aqui</a></h4>
+              <h4>Ainda não se inscreveu? <a href="index.html">Clique aqui</a></h4>
             </div>
           </div>
         </div>
       </div>
       <script> 
-            function senhasIguais() {
+            function logar() {
+                var login = document.getElementById('login').value;
                 var senha = document.getElementById('password').value;
-                var senha2 = document.getElementById('spassword').value;
 
-
-                if(senha != senha2 ) {
+                if(login ) {
                     
                 }
             }  
